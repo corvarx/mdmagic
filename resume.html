@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: 14px; /* Base font size */
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px; /* Reduced padding */
+        }
+        .name {
+            font-size: 24px; /* Increased font size for the name */
+            font-weight: bold;
+            color: darkgreen;
+        }
+        .title {
+            font-size: 12px; /* Reduced font size for the title */
+            color: darkgreen;
+            font-weight: normal;
+        }
+        .contact-info {
+            text-align: right;
+            font-size: 12px; /* Reduced font size for contact info */
+            line-height: 1.2; /* Reduced line height */
+            margin: 0; /* Remove default margin */
+        }
+        .contact-info p {
+            margin: 0; /* Remove margin between lines */
+        }
+        .content {
+            padding: 10px; /* Reduced padding */
+        }
+        .section {
+            margin-bottom: 5px; /* Reduced margin between sections */
+        }
+        .section-title {
+            font-size: 18px; /* Reduced font size */
+            font-weight: bold;
+            color: darkgreen;
+            margin: 0; /* Remove margin */
+            padding-top: 5px; /* Add slight padding for separation */
+        }
+        .experience-record {
+            display: flex;
+            flex-direction: column; /* Allows for vertical stacking of elements */
+            margin-bottom: 5px; /* Reduced margin */
+            width: 100%;
+        }
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 3px; /* Reduced margin */
+        }
+        .experience-title {
+            font-size: 14px; /* Reduced font size */
+            font-weight: bold;
+            flex: 3;
+            min-width: 200px;
+        }
+        .experience-location {
+            font-size: 14px; /* Reduced font size */
+            font-style: italic;
+            flex: 2;
+            text-align: center;
+        }
+        .experience-time {
+            font-size: 14px; /* Reduced font size */
+            color: gray;
+            flex: 1;
+            text-align: right;
+        }
+        .experience-details {
+            margin-left: 10px; /* Smaller indentation */
+            font-size: 12px; /* Smaller font size for list items */
+            margin-top: 0; /* Removed top margin */
+            line-height: 1.2; /* Consistent line height with contact info */
+        }
+        .publication-list {
+            list-style-type: disc;
+            padding-left: 18px; /* Align bullets with section title */
+            margin: 0; /* Remove margin */
+            font-size: 12px; /* Smaller font size for list items */
+            line-height: 1.2; /* Consistent line height */
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 5px 0; /* Reduced margin */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div>
+            <div class="name">Your Name</div>
+            <div class="title">Senior Engineer</div>
+        </div>
+        <div class="contact-info">
+            <p>Email: your.email@example.com</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>LinkedIn: linkedin.com/in/yourprofile</p>
+            <p>Address: 123 Main St, City, Country</p>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="section">
+            <div class="section-title">Education</div>
+            <hr>
+            <div class="experience-record">
+                <div class="experience-header">
+                    <div class="experience-title">Bachelor of Science in Computer Science</div>
+                    <div class="experience-location">University Name, City</div>
+                    <div class="experience-time">2015 - 2019</div>
+                </div>
+                <ul class="experience-details">
+                    <li>Graduated with honors</li>
+                    <li>Member of the Computer Science Club</li>
+                    <li>Completed a thesis on artificial intelligence</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Experience</div>
+            <hr>
+            <div class="experience-record">
+                <div class="experience-header">
+                    <div class="experience-title">Software Engineer</div>
+                    <div class="experience-location">Tech Company, City</div>
+                    <div class="experience-time">2020 - Present</div>
+                </div>
+                <ul class="experience-details">
+                    <li>Developed and maintained web applications</li>
+                    <li>Led a team of 5 developers</li>
+                    <li>Improved application performance by 30%</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Publication</div>
+            <hr>
+            <ul class="publication-list">
+                <li>Title of Publication 1</li>
+                <li>Title of Publication 2</li>
+                <li>Title of Publication 3</li>
+            </ul>
+        </div>
+
+        <!-- Add more sections as needed -->
+    </div>
+
+</body>
+</html>
+
