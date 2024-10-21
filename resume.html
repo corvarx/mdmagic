@@ -18,13 +18,12 @@
             padding: 10px; /* Reduced padding */
         }
         .name {
-            font-size: 24px; /* Increased font size for the name */
+            font-size: 30px; /* Increased font size for the name */
             font-weight: bold;
-            color: darkgreen;
+            color: #0B5563;
         }
         .title {
             font-size: 12px; /* Reduced font size for the title */
-            color: darkgreen;
             font-weight: normal;
         }
         .contact-info {
@@ -40,19 +39,19 @@
             padding: 10px; /* Reduced padding */
         }
         .section {
-            margin-bottom: 5px; /* Reduced margin between sections */
+            margin-bottom: 10px; /* Reduced margin between sections */
         }
         .section-title {
             font-size: 18px; /* Reduced font size */
             font-weight: bold;
-            color: darkgreen;
+            color: #0B5563;
             margin: 0; /* Remove margin */
-            padding-top: 5px; /* Add slight padding for separation */
+            padding-top: 2px; /* Add slight padding for separation */
         }
         .experience-record {
             display: flex;
             flex-direction: column; /* Allows for vertical stacking of elements */
-            margin-bottom: 5px; /* Reduced margin */
+            margin-bottom: 1px; /* Reduced margin */
             width: 100%;
         }
         .experience-header {
@@ -61,35 +60,35 @@
             margin-bottom: 3px; /* Reduced margin */
         }
         .experience-title {
-            font-size: 14px; /* Reduced font size */
+            font-size: 12px; /* Reduced font size */
             font-weight: bold;
             flex: 3;
             min-width: 200px;
         }
         .experience-location {
-            font-size: 14px; /* Reduced font size */
-            font-style: italic;
+            font-size: 12px; /* Reduced font size */
             flex: 2;
             text-align: center;
         }
         .experience-time {
-            font-size: 14px; /* Reduced font size */
-            color: gray;
+            font-size: 12px; /* Reduced font size */
+            color: #0B5563;
             flex: 1;
             text-align: right;
         }
         .experience-details {
-            margin-left: 10px; /* Smaller indentation */
+            margin-left: 1px; /* Smaller indentation */
             font-size: 12px; /* Smaller font size for list items */
             margin-top: 0; /* Removed top margin */
-            line-height: 1.2; /* Consistent line height with contact info */
+            line-height: 1.4; /* Consistent line height with contact info */
+	    padding-left: 18px;
         }
         .publication-list {
             list-style-type: disc;
             padding-left: 18px; /* Align bullets with section title */
             margin: 0; /* Remove margin */
             font-size: 12px; /* Smaller font size for list items */
-            line-height: 1.2; /* Consistent line height */
+            line-height: 1.4; /* Consistent line height */
         }
         hr {
             border: none;
@@ -102,14 +101,14 @@
 
     <div class="header">
         <div>
-            <div class="name">Your Name</div>
-            <div class="title">Senior Engineer</div>
+            <div class="name">Yuejian Xie</div>
+            <div class="title">CPU Performance Architect</div>
         </div>
         <div class="contact-info">
-            <p>Email: your.email@example.com</p>
-            <p>Phone: (123) 456-7890</p>
-            <p>LinkedIn: linkedin.com/in/yourprofile</p>
-            <p>Address: 123 Main St, City, Country</p>
+            <p>xieyuejian@gmail.com</p>
+            <p>404-518-7919</p>
+            <p>linkedin.com/in/yuejian-xie-83790727/</p>
+            <p>Sunnyvale, CA 94086</p>
         </div>
     </div>
 
@@ -119,15 +118,31 @@
             <hr>
             <div class="experience-record">
                 <div class="experience-header">
-                    <div class="experience-title">Bachelor of Science in Computer Science</div>
-                    <div class="experience-location">University Name, City</div>
-                    <div class="experience-time">2015 - 2019</div>
+                    <div class="experience-title">Computer Science PhD GPA 3.8/4.0</div>
+                    <div class="experience-location">Georgia Tech, Atlanta, US</div>
+                    <div class="experience-time">2007-2011</div>
                 </div>
                 <ul class="experience-details">
-                    <li>Graduated with honors</li>
-                    <li>Member of the Computer Science Club</li>
-                    <li>Completed a thesis on artificial intelligence</li>
+                    <li>Efficient shared resource management in multi-core processors <b>(ISCA-2009)</b></li>
                 </ul>
+            </div>
+            <div class="experience-record">
+                <div class="experience-header">
+                    <div class="experience-title">Master of Science GPA 87/100</div>
+                    <div class="experience-location">Tsinghua University, Beijing, China</div>
+                    <div class="experience-time">2004-2007</div>
+                </div>
+                <ul class="experience-details">
+                  <li>H.264 video decoding chip architecture</li>
+		  <li> Outstanding Master Thesis Awared</li>
+                </ul>
+            </div>
+            <div class="experience-record">
+                <div class="experience-header">
+                    <div class="experience-title">Bachelor of Science GPA 84/100</div>
+                    <div class="experience-location">Tsinghua University, Beijing, China</div>
+                    <div class="experience-time">2000-2004</div>
+                </div>
             </div>
         </div>
 
@@ -136,25 +151,79 @@
             <hr>
             <div class="experience-record">
                 <div class="experience-header">
-                    <div class="experience-title">Software Engineer</div>
-                    <div class="experience-location">Tech Company, City</div>
-                    <div class="experience-time">2020 - Present</div>
+                    <div class="experience-title">Performance Team Lead & Arch Committee Lead</div>
+                    <div class="experience-location">Alibaba Inc, THead, Sunnyvale, CA</div>
+                    <div class="experience-time">2019 - Present</div>
                 </div>
                 <ul class="experience-details">
-                    <li>Developed and maintained web applications</li>
-                    <li>Led a team of 5 developers</li>
-                    <li>Improved application performance by 30%</li>
+                    <li>128-core Arm Server SoC (Yitian-710) top level architecture design and performance projection.</li>
+                    <li>Leading server soc performance team: 1) Cycle accurate performance model 2) Pre-silicon performance verification (DV/EMU). 3) Post-silicon performance tuning.</li>
+                    <li>Test planing, benchmark porting, measurement methodology, RTL waveform analysis tool development and performance debugging.</li>
+		    <li>Gem5-like cycle accurate performance model development (python/C++): CPU core, fabric, DDR, Chiplet</li>
+		    <li>Familiar with benchmark Dhrystone, LMBench, Stream, SpecCPU, SpecJBB, LockHammer.</li>
+		    <li>THead Arch Committee lead, following industry and academia architecture innovations and organize cutting-edge architecture activities</li>
                 </ul>
             </div>
-        </div>
+            <div class="experience-record">
+                <div class="experience-header">
+                    <div class="experience-title">Principle CPU Performance Architect</div>
+                    <div class="experience-location">Huawei Technologies, Santa Clara, CA</div>
+                    <div class="experience-time">2016-2019</div>
+                </div>
+                <ul class="experience-details">
+		  <li>In-house ARM core architecture: mid-core, load store unit, MMU, prefetcher, L1/L2 cache.</li>
+		  <li>Server/Mobile SoC memory subsystem architecture: L3, fabric, memory controller</li>
+		  <li>Cycle-accurate performance simulator development (C++) and performance simulation.</li>
+		  <li>Web/GUI based performance analysis and reporting framework development (python/WxWidget).</li>
+		  <li>Performance analysis of RTL design, waveform debugging (Verilog/Verdi), fsdb analysis.</li>
+		</ul>
+	    </div>
+
+
+            <div class="experience-record">
+                <div class="experience-header">
+                    <div class="experience-title">Senior System Architect</div>
+                    <div class="experience-location">Powercore Technology, Austin, TX</div>
+                    <div class="experience-time">2015-2016</div>
+                </div>
+                <ul class="experience-details">
+		  <li>Cooperate with IBM for next generation server chip development based on Power8 for China market. </li>
+		  <li>SoC architecture definition, considering area, floor plan, performance, power and system cost.</li>
+		  <li>L2, L3, Coherent interconnect, MCU unit logic design, verification and performance simulation.</li>
+		</ul>
+	    </div>
+
+            <div class="experience-record">
+                <div class="experience-header">
+                    <div class="experience-title">Senior Architect</div>
+                    <div class="experience-location">Samsung Austin R&D Center, Austin TX</div>
+                    <div class="experience-time">2014-2015</div>
+                </div>
+                <ul class="experience-details">
+		  <li>Performance Modeling/Analysis: L2/L3 cache, Prefetcher, L1/L2 TLB, Table Walker</li>
+		</ul>
+	    </div>
+
+            <div class="experience-record">
+                <div class="experience-header">
+                    <div class="experience-title">Senior Design Engineer</div>
+                    <div class="experience-location">AMD Inc, Austin, TX </div>
+                    <div class="experience-time">2011-2014</div>
+                </div>
+                <ul class="experience-details">
+		  <li>Jaguar and Zen1 project, extensive experience on LSU, L1/L2 Cache, L1/L2 TLB, Prefetcher, Table Walker</li>
+		  <li>C++ simulator correlation with RTL: performance bug identification, power analysis, competitive analysis</li>
+		</ul>
+	    </div>
+	</div>
 
         <div class="section">
-            <div class="section-title">Publication</div>
+            <div class="section-title">Selected Publication</div>
             <hr>
             <ul class="publication-list">
-                <li>Title of Publication 1</li>
-                <li>Title of Publication 2</li>
-                <li>Title of Publication 3</li>
+	      <li>Yuejian Xie, Gabriel H. Loh, “PIPP: Promotion/Insertion Pseudo-Partitioning of Multi-Core Shared Caches”, ISCA 2009, Austin, United States (Top computer architecture conference)  [Cited by 414]</li>
+	      <li>Yuejian Xie, Gabriel H. Loh, “Dynamic Classification of Program Memory Behaviors in CMPs”, The 2nd CMP-MSI Workshop conjunction with ISCA 2008, Beijing, China [Cited by 170]</li>
+	      <li>Gabriel H. Loh, Samantika Subramaniam, Yuejian Xie, “Zesto: A Cycle-Level Simulator for Highly Detailed Microarchitecture Exploration”, ISPASS 2009, Boston, United States [Cited by 163]</li>
             </ul>
         </div>
 
